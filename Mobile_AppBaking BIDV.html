@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIDV banking app</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header, .section {
+            margin-bottom: 20px;
+        }
+        .header {
+            text-align: center;
+            background-color: #008000;
+            color: white;
+            padding: 20px;
+        }
+        .header img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-form input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form button {
+            padding: 10px 20px;
+            background-color: #008000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #006400;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .menu button {
+            background-color: #008000;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            flex-grow: 1;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .menu button:hover {
+            background-color: #006400;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>BIDV Banking App Visa mastercard</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1txsUUMz_gBdzFbONOSeYkfvGTrf0MAC18g&s" alt="Bank Logo">
+    </div>
+
+    <div class="section login-form">
+        <h2>Đăng nhập</h2>
+        <input type="text" placeholder="Tên đăng nhập">
+        <input type="password" placeholder="Mật khẩu">
+        <button>Đăng nhập</button>
+        <a href="#">Quên mật khẩu?</a>
+    </div>
+
+    <div class="section card">
+        <h2>Thẻ tín dụng</h2>
+        <img src="https://bidv.com.vn/wps/wcm/connect/eaab6655-a9bf-4b68-bfbf-588aeffc4b5c/9/the-tin-dung-bidv-visa-business.jpg?MOD=AJPERES&CVID=" alt="Credit Card">
+        <p>0123 xxxx xxxx 6789</p>
+        <p>TRAN CHI NGUYEN</p>
+    </div>
+
+    <div class="section menu">
+        <button>Chuyển tiền</button>
+        <button>Dịch vụ thẻ</button>
+        <button>Tiết kiệm</button>
+        <button>Mua sắm</button>
+    </div>
+
+    <div class="section card">
+        <h2>Quản lý cá nhân</h2>
+        <p>Chào buổi chiều/sáng! TRAN CHI NGUYEN</p>
+    </div>
+</div>
+
+</body>
+</html>
